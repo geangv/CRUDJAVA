@@ -11,10 +11,10 @@
 # Note: This is only used by command line
 ###############################################################################
 #*.cs     diff=csharp
-*.java linguist-language=java
+#*.java linguist-language=java
 *.java linguist-detectable=true
 #*.js linguist-detectable=false
-#*.html linguist-detectable=false
+*.html linguist-detectable=false
 *.xml linguist-detectable=false
 ###############################################################################
 # Set the merge driver for project and solution files
