@@ -11,7 +11,7 @@
 # Note: This is only used by command line
 ###############################################################################
 #*.cs     diff=csharp
-*.js linguist-language=java
+*.js linguist-language=CSharp
 ###############################################################################
 # Set the merge driver for project and solution files
 #
@@ -35,8 +35,7 @@
 #*.sqlproj   merge=binary
 #*.wwaproj   merge=binary
 # Custom for Visual Studio
-#*.cs     diff=csharp
-*java    diff=java
+*.cs     diff=csharp
 *.sln    merge=union
 *.csproj merge=union
 *.vbproj merge=union
@@ -79,3 +78,4 @@
 #*.pdf   diff=astextplain
 #*.PDF   diff=astextplain
 #*.rtf   diff=astextplain
+#*.RTF   diff=astextplain
